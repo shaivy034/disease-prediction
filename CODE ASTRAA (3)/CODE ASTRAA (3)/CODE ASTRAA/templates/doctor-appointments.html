@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediAI - Doctor Appointments</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/doctor-appointments.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/doctor-ai.png" alt="MediAI Logo">
+                <h1>MediAI</h1>
+                
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                    <li><a href="ai-chat-doctor.html">AI Chat Doctor</a></li>
+                    <li><a href="medication-guide.html">Medication Guide</a></li>
+                    <li><a href="doctor-appointments.html" class="active">Doctor Appointments</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login" onclick="window.location.href='login.html'">Login</button>
+                <button class="btn signup" onclick="window.location.href='signup.html'">Sign Up</button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="doctor-appointments-page">
+        <div class="container">
+            <div class="section-header">
+                <h2>Doctor Appointments</h2>
+                <p>Book, manage, and track your medical appointments with healthcare professionals.</p>
+            </div>
+            
+            <div class="appointments-container">
+                <div class="appointments-tabs">
+                    <button class="tab-btn active" data-tab="book-appointment">Book Appointment</button>
+                    <button class="tab-btn" data-tab="upcoming-appointments">Upcoming</button>
+                    <button class="tab-btn" data-tab="past-appointments">Past</button>
+                </div>
+                
+                <div class="tab-content active" id="book-appointment">
+                    <div class="search-doctors">
+                        <div class="search-box">
+                            <div class="form-group">
+                                <label for="specialty-search">Find a Doctor by Specialty</label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" id="specialty-search" class="form-control" placeholder="e.g. Cardiologist, Pediatrician...">
+                                    <button id="search-doctors-btn" class="primary-btn">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="filters">
+                            <div class="form-group">
+                                <label for="location-filter">Location</label>
+                                <select id="location-filter" class="form-control">
+                                    <option value="">All Locations</option>
+                                    <option value="new-york">New York</option>
+                                    <option value="los-angeles">Los Angeles</option>
+                                    <option value="chicago">Chicago</option>
+                                    <option value="houston">Houston</option>
+                                    <option value="miami">Miami</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="availability-filter">Availability</label>
+                                <select id="availability-filter" class="form-control">
+                                    <option value="">Any Time</option>
+                                    <option value="morning">Morning (8AM-12PM)</option>
+                                    <option value="afternoon">Afternoon (12PM-5PM)</option>
+                                    <option value="evening">Evening (5PM-9PM)</option>
+                                    <option value="weekend">Weekend</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="doctors-results">
+                        <div class="results-placeholder">
+                            <img src="assets/doctors.png" alt="Doctor icon">
+                            <h3>Search for doctors to see available appointments</h3>
+                            <p>Enter a specialty and click "Search" to find healthcare providers</p>
+                        </div>
+                        
+                        <div class="results-content hidden">
+                            <div class="doctor-cards">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="upcoming-appointments">
+                    <div class="appointments-list">
+                        <div class="empty-state">
+                            <img src="assets/calendar-icon.png" alt="Calendar icon">
+                            <h3>No upcoming appointments</h3>
+                            <p>You don't have any scheduled appointments. Book one now!</p>
+                            <button class="primary-btn switch-to-book">Book Appointment</button>
+                        </div>
+                        
+                        <div class="appointments-cards hidden">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="past-appointments">
+                    <div class="appointments-list">
+                        <div class="empty-state">
+                            <img src="assets/history-icon.png" alt="History icon">
+                            <h3>No past appointments</h3>
+                            <p>Your appointment history will appear here after visits</p>
+                        </div>
+                        
+                        <div class="appointments-cards hidden">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="disclaimer-notice">
+                <i class="fas fa-exclamation-circle"></i>
+                <p><strong>Note:</strong> Appointment availability is shown in real-time but not guaranteed until confirmed. You'll receive a confirmation email with details after booking.</p>
+            </div>
+        </div>
+        
+        <!-- Booking Modal (hidden by default) -->
+        <div class="modal-overlay hidden" id="booking-modal">
+            <div class="modal-container">
+                <button class="close-modal">&times;</button>
+                <h3 id="modal-doctor-name">Book Appointment</h3>
+                <div class="modal-content">
+                    <div class="doctor-info">
+                        <img src="assets/doctor-placeholder.jpg" alt="Doctor photo" id="modal-doctor-img">
+                        <div>
+                            <h4 id="modal-doctor-specialty">Specialty</h4>
+                            <p id="modal-doctor-location"><i class="fas fa-map-marker-alt"></i> Location</p>
+                            <div class="rating" id="modal-doctor-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.5 (120 reviews)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="appointment-form">
+                        <div class="form-group">
+                            <label for="appointment-date">Select Date</label>
+                            <input type="date" id="appointment-date" class="form-control" min="">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="appointment-time">Available Times</label>
+                            <select id="appointment-time" class="form-control">
+                                <option value="">Select a time</option>
+                                <!-- Will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="appointment-reason">Reason for Visit</label>
+                            <textarea id="appointment-reason" class="form-control" placeholder="Briefly describe the reason for your visit"></textarea>
+                        </div>
+                        
+                        <button id="confirm-booking-btn" class="primary-btn">Confirm Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Confirmation Modal (hidden by default) -->
+        <div class="modal-overlay hidden" id="confirmation-modal">
+            <div class="modal-container confirmation">
+                <div class="confirmation-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3>Appointment Confirmed!</h3>
+                <div class="confirmation-details">
+                    <p><strong>Doctor:</strong> <span id="confirmation-doctor">Dr. Smith</span></p>
+                    <p><strong>Date & Time:</strong> <span id="confirmation-time">June 15, 2023 at 10:30 AM</span></p>
+                    <p><strong>Location:</strong> <span id="confirmation-location">123 Medical Center, New York</span></p>
+                    <p><strong>Confirmation #:</strong> <span id="confirmation-number">MED123456</span></p>
+                </div>
+                <div class="confirmation-actions">
+                    <button class="secondary-btn" id="add-to-calendar"><i class="far fa-calendar-plus"></i> Add to Calendar</button>
+                    <button class="primary-btn" id="close-confirmation">Done</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/doctor-ai.png" alt="MediAI Logo">
+                    <h3>MediAI</h3>
+                    <p>AI-Powered Healthcare</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                        <li><a href="ai-chat-doctor.html">AI Chat Doctor</a></li>
+                        <li><a href="medication-guide.html">Medication Guide</a></li>
+                        <li><a href="doctor-appointments.html">Doctor Appointments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Medical Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MediAI. All rights reserved.</p>
+                <p class="disclaimer">Disclaimer: MediAI is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/doctor-appointments.js"></script>
+</body>
+</html>

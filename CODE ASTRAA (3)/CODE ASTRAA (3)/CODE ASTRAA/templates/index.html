@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediAI - AI-Powered Virtual Doctor</title>
+    <link rel="stylesheet" href="{{ url_for('static' , filename='css/styles.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='assets/doctor-ai.png') }}" alt="MediAI Logo">
+                <h1>MediAI</h1>
+                <p>Welcome, {{ email }}</p>
+
+
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#symptom-checker">Symptom Checker</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login" onclick="window.location.href='/login'">Login</button>
+                <button class="btn signup" onclick="window.location.href='/signup'">Sign Up</button>
+                
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your Personal AI Doctor</h2>
+                <p>24/7 healthcare assistance powered by artificial intelligence. Get instant medical advice, symptom analysis, and treatment recommendations.</p>
+                <div class="hero-buttons">
+                    <button onclick="window.location.href='/aichatdoctor'" class="btn primary">
+                        Talk to MediAI
+                    </button>
+                    <button class="btn secondary" onclick="window.location.href='/symptom-checker'">Check Symptoms</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="{{ url_for('static', filename='assets/healthcare-bg.jpg') }}" alt="AI Doctor Illustration">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">How MediAI Can Help You</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <a href="symptom-checker.html">
+                            <img src="{{ url_for('static', filename='assets/symptom-checker-icon.png') }}" alt="Symptom Checker">
+                        </a>
+                        
+                    </div>
+                    <h3>Symptom Checker</h3>
+                    <p>Describe your symptoms and get possible conditions with probability percentages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <a href="ai-chat-doctor.html"><img src="{{ url_for('static', filename='assets/chatbot-icon.png') }}" alt="AI Chatbot"></a>
+                    </div>
+                    <h3>AI Chat Doctor</h3>
+                    <p>Chat with our AI doctor to get personalized medical advice and recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <a href="medication-guide.html"><img src="{{ url_for('static', filename='assets/prescription-icon.png') }}" alt="Prescription"></a>
+                    </div>
+                    <h3>Medication Guide</h3>
+                    <p>Get information about medications, side effects, and interactions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <a href="doctor-appointments.html"><img src="{{ url_for('static', filename='assets/appointment-icon.png') }}" alt="Appointments"></a>
+                    </div>
+                    <h3>Doctor Appointments</h3>
+                    <p>Connect with real doctors when you need human expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="symptom-checker" class="symptom-checker">
+        <div class="container">
+            <h2 class="section-title">Symptom Checker</h2>
+            <div class="checker-container">
+                <div class="input-section">
+                    <textarea id="symptom-input" placeholder="Describe your symptoms here... (e.g., headache, fever, cough for 3 days)"></textarea>
+                    <button id="analyze-btn" class="btn primary">Analyze Symptoms</button>
+                </div>
+                <div class="result-section">
+                    <div class="loading" id="loading">
+                        <div class="spinner"></div>
+                        <p>Analyzing your symptoms...</p>
+                    </div>
+                    <div class="results" id="results">
+                        <h3>Possible Conditions</h3>
+                        <div class="conditions-list" id="conditions-list">
+                            
+                        </div>
+                        <div class="recommendations">
+                            <h3>Recommendations</h3>
+                            <p id="recommendation-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+<!-- 
+    <section class="ai-chat">
+        <div class="container">
+            <h2 class="section-title">Chat with MediAI Doctor</h2>
+            <div class="chat-container">
+                <div class="chat-box" id="chat-box">
+                    <div class="chat-message ai-message">
+                        <div class="avatar">
+                            <img src="assets/doctor-ai.png" alt="AI Doctor">
+                        </div>
+                        <div class="message-content">
+                            <p>Hello! I'm MediAI, your virtual healthcare assistant. How can I help you today?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your health question here...">
+                    <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About MediAI</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>MediAI is an AI-powered virtual doctor platform designed to provide accessible healthcare to everyone, anytime, anywhere.</p>
+                    <p>Our advanced machine learning models are trained on millions of medical cases to provide accurate symptom analysis and health recommendations.</p>
+                    <p>While MediAI can provide valuable health information, it's not a substitute for professional medical diagnosis or treatment.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>Availability</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10,000+</h3>
+                        <p>Conditions Analyzed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>User Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-envelope"></i> contact@mediai.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Health St, Medville, USA</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="{{ url_for('static', filename='assets/doctor-ai.png') }}" alt="MediAI Logo">
+                    <h3>MediAI</h3>
+                    <p>AI-Powered Healthcare</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#symptom-checker">Symptom Checker</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Medical Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MediAI. All rights reserved.</p>
+                <p class="disclaimer">Disclaimer: MediAI is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for ('static' , filename = 'js/script.js')}}"></script>
+</body>
+</html>

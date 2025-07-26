@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediAI - Medication Guide</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/medication-guide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/doctor-ai.png" alt="MediAI Logo">
+                <h1>MediAI</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                    <li><a href="ai-chat-doctor.html">AI Chat Doctor</a></li>
+                    <li><a href="medication-guide.html" class="active">Medication Guide</a></li>
+                    <li><a href="doctor-appointments.html">Doctor Appointments</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="btn login" onclick="window.location.href='login.html'">Login</button>
+                <button class="btn signup" onclick="window.location.href='signup.html'">Sign Up</button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="medication-guide-page">
+        <div class="container">
+            <div class="section-header">
+                <h2>Medication Guide</h2>
+                <p>Search for medications to get detailed information about usage, side effects, and interactions.</p>
+            </div>
+            
+            <div class="medication-guide-container">
+                <div class="search-section">
+                    <div class="search-box">
+                        <div class="form-group">
+                            <label for="medication-search">Search for a Medication</label>
+                            <div class="input-with-voice">
+                                <input type="text" id="medication-search" class="form-control" placeholder="Enter medication name or click the mic to speak">
+                                <button id="voice-btn" class="voice-btn"><i class="fas fa-microphone"></i></button>
+                                <button id="search-btn" class="primary-btn">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="filters">
+                        <div class="form-group">
+                            <label for="medication-type">Medication Type</label>
+                            <select id="medication-type" class="form-control">
+                                <option value="">All Types</option>
+                                <option value="antibiotic">Antibiotic</option>
+                                <option value="pain-reliever">Pain Reliever</option>
+                                <option value="antihistamine">Antihistamine</option>
+                                <option value="antidepressant">Antidepressant</option>
+                                <option value="blood-pressure">Blood Pressure</option>
+                                <option value="diabetes">Diabetes</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="results-section">
+                    <div class="results-placeholder">
+                        <img src="assets/pill-icon.png" alt="Pill icon">
+                        <h3>Search for medications to see information</h3>
+                        <p>Enter a medication name and click "Search" to get started</p>
+                    </div>
+                    
+                    <div class="results-content hidden">
+                        <div class="medication-header">
+                            <h3 id="medication-name">Medication Name</h3>
+                            <span class="medication-type" id="medication-type-label">Type</span>
+                        </div>
+                        
+                        <div class="medication-details">
+                            <div class="detail-card">
+                                <h4><i class="fas fa-info-circle"></i> Overview</h4>
+                                <p id="overview-text">Overview information will appear here</p>
+                            </div>
+                            
+                            <div class="detail-card">
+                                <h4><i class="fas fa-exclamation-triangle"></i> Side Effects</h4>
+                                <div id="side-effects-content">
+                                    <!-- Will be populated by JavaScript -->
+                                </div>
+                            </div>
+                            
+                            <div class="detail-card">
+                                <h4><i class="fas fa-handshake"></i> Interactions</h4>
+                                <div id="interactions-content">
+                                    <!-- Will be populated by JavaScript -->
+                                </div>
+                            </div>
+                            
+                            <div class="detail-card">
+                                <h4><i class="fas fa-notes-medical"></i> Dosage</h4>
+                                <div id="dosage-content">
+                                    <!-- Will be populated by JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="disclaimer-notice">
+                <i class="fas fa-exclamation-circle"></i>
+                <p><strong>Disclaimer:</strong> This medication guide is for informational purposes only and should not replace professional medical advice. Always consult your healthcare provider before starting or changing any medication.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/doctor-ai.png" alt="MediAI Logo">
+                    <h3>MediAI</h3>
+                    <p>AI-Powered Healthcare</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="symptom-checker.html">Symptom Checker</a></li>
+                        <li><a href="ai-chat-doctor.html">AI Chat Doctor</a></li>
+                        <li><a href="medication-guide.html">Medication Guide</a></li>
+                        <li><a href="doctor-appointments.html">Doctor Appointments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Medical Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 MediAI. All rights reserved.</p>
+                <p class="disclaimer">Disclaimer: MediAI is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/medication-guide.js"></script>
+</body>
+</html>

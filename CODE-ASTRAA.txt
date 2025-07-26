@@ -1,0 +1,14 @@
+CODE-ASTRAA/
+├── data/
+│   └── symptoms_dataset.csv
+├── models/
+│   ├── decision_tree.pkl
+│   └── random_forest.pkl
+├── gui/ or app.py
+├── src/
+│   ├── train_model.py
+│   ├── predict.py
+│   ├── utils.py
+├── README.md
+├── requirements.txt
+└── LICENSE

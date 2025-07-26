@@ -1,0 +1,90 @@
+/* terms.css - Dedicated styles for terms page */
+
+/* Base styles */
+.terms-page {
+    padding: 120px 0 80px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+}
+
+.terms-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.terms-header h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.terms-header p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.terms-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.terms-section {
+    margin-bottom: 30px;
+}
+
+.terms-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.terms-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: var(--dark-color);
+}
+
+.terms-section ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.terms-section li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.terms-section address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .terms-page {
+        padding: 100px 20px;
+    }
+    
+    .terms-header {
+        padding: 20px;
+    }
+    
+    .terms-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .terms-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .terms-section h3 {
+        font-size: 1.1rem;
+    }
+}

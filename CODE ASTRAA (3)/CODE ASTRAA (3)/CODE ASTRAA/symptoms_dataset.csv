@@ -1,0 +1,1001 @@
+﻿id,symptoms1,symptoms2,symptoms3,symptoms4,disease
+1,white patches,loss of appetite,night sweats,neck stiffness,migraine
+2,neck stiffness,white patches,abdominal pain,muscle pain,flu
+3,skin redness,high fever,throat pain,dark urine,typhoid
+4,runny nose,muscle pain,swollen tonsils,loss of appetite,gastroenteritis
+5,frequent urination,burning sensation,dizziness,fever,asthma
+6,rapid heartbeat,swollen tonsils,nausea,itchy eyes,anemia
+7,ear pain,skin redness,chills,neck stiffness,meningitis
+8,dehydration,skin redness,dark urine,dizziness,meningitis
+9,persistent cough,dark urine,runny nose,chest pain,gastroenteritis
+10,sore throat,weight loss,rash,frequent urination,food poisoning
+11,loss of appetite,frequent urination,runny nose,difficulty swallowing,gastroenteritis
+12,dry cough,headache,hair loss,stomach pain,asthma
+13,itchy eyes,vomiting,muscle pain,swollen tonsils,hepatitis a
+14,frequent urination,joint pain,chills,stomach pain,tuberculosis
+15,rash,white patches,hair loss,fever,tuberculosis
+16,sweating,swollen lymph nodes,frequent urination,stomach pain,skin allergy
+17,dizziness,abdominal pain,blurred vision,frequent urination,acid reflux
+18,throat pain,difficulty swallowing,light sensitivity,muscle pain,migraine
+19,light sensitivity,throat pain,cough,fever,lung infection
+20,throat pain,difficulty swallowing,swollen tonsils,swollen lymph nodes,typhoid
+21,sweating,burning sensation,dehydration,itchy eyes,gastroenteritis
+22,nausea,swollen lymph nodes,fatigue,swollen tonsils,tuberculosis
+23,loss of appetite,difficulty swallowing,neck stiffness,chest pain,flu
+24,shortness of breath,muscle pain,cough,back pain,covid-19
+25,rapid heartbeat,swollen tonsils,dizziness,light sensitivity,allergies
+26,fatigue,high fever,neck stiffness,dry cough,meningitis
+27,rapid heartbeat,swollen lymph nodes,dehydration,high fever,malaria
+28,dehydration,skin redness,chills,back pain,strep throat
+29,loss of appetite,back pain,cough,abdominal pain,urinary tract infection
+30,itchy eyes,rapid heartbeat,hair loss,light sensitivity,bronchitis
+31,vomiting,chills,rash,shortness of breath,appendicitis
+32,dizziness,swollen lymph nodes,sneezing,shortness of breath,ear infection
+33,neck stiffness,rash,chills,sore throat,chickenpox
+34,runny nose,persistent cough,abdominal pain,fatigue,measles
+35,neck stiffness,headache,persistent cough,swollen lymph nodes,chikungunya
+36,vomiting,weight loss,chest pain,back pain,meningitis
+37,high fever,chills,difficulty swallowing,loss of appetite,chikungunya
+38,fatigue,light sensitivity,headache,blurred vision,urinary tract infection
+39,persistent cough,cough,nasal congestion,back pain,typhoid
+40,light sensitivity,sore throat,dark urine,nausea,bronchitis
+41,ear pain,blurred vision,dark urine,persistent cough,appendicitis
+42,light sensitivity,rash,muscle pain,neck stiffness,migraine
+43,rapid heartbeat,headache,throat pain,swollen tonsils,bronchitis
+44,frequent urination,neck stiffness,joint pain,nasal congestion,skin allergy
+45,difficulty swallowing,joint pain,skin redness,back pain,bronchitis
+46,blurred vision,skin redness,fever,fatigue,hypothyroidism
+47,abdominal pain,chest pain,sneezing,nasal congestion,measles
+48,swollen lymph nodes,white patches,burning sensation,nasal congestion,covid-19
+49,blurred vision,dark urine,sweating,rapid heartbeat,asthma
+50,rash,itchy eyes,nausea,nasal congestion,measles
+51,white patches,headache,dark urine,light sensitivity,meningitis
+52,night sweats,skin redness,cough,dizziness,food poisoning
+53,itchy eyes,dehydration,muscle pain,high fever,hepatitis a
+54,stomach pain,skin redness,swollen lymph nodes,frequent urination,appendicitis
+55,burning sensation,muscle pain,dry cough,weight loss,sinusitis
+56,swollen tonsils,neck stiffness,itchy eyes,nasal congestion,malaria
+57,weight loss,hair loss,nasal congestion,rash,dengue
+58,blurred vision,itchy eyes,cough,back pain,flu
+59,nasal congestion,diarrhea,blurred vision,skin redness,hepatitis b
+60,stomach pain,sweating,vomiting,hair loss,anemia
+61,sore throat,throat pain,fever,chest pain,hypothyroidism
+62,swollen lymph nodes,dehydration,ear pain,nasal congestion,hypothyroidism
+63,joint pain,skin redness,vomiting,cough,hepatitis c
+64,chest pain,frequent urination,cough,itchy eyes,covid-19
+65,fatigue,hair loss,ear pain,neck stiffness,urinary tract infection
+66,sweating,itchy eyes,dizziness,vomiting,hypothyroidism
+67,high fever,cough,dizziness,itchy eyes,hyperthyroidism
+68,headache,abdominal pain,nasal congestion,throat pain,hepatitis c
+69,fever,dizziness,chills,hair loss,ear infection
+70,hair loss,cough,swollen lymph nodes,swollen tonsils,hyperthyroidism
+71,back pain,swollen tonsils,high fever,fatigue,dengue
+72,cough,blurred vision,headache,vomiting,hyperthyroidism
+73,night sweats,rapid heartbeat,muscle pain,blurred vision,anemia
+74,back pain,itchy eyes,night sweats,burning sensation,hypothyroidism
+75,burning sensation,persistent cough,headache,shortness of breath,food poisoning
+76,neck stiffness,back pain,abdominal pain,fatigue,jaundice
+77,diarrhea,chest pain,white patches,fever,hepatitis a
+78,diarrhea,night sweats,chest pain,weight loss,urinary tract infection
+79,swollen lymph nodes,dry cough,skin redness,dehydration,hepatitis c
+80,back pain,nasal congestion,swollen tonsils,nausea,flu
+81,joint pain,muscle pain,nasal congestion,sweating,migraine
+82,skin redness,burning sensation,abdominal pain,hair loss,strep throat
+83,chills,burning sensation,throat pain,muscle pain,flu
+84,sore throat,muscle pain,dizziness,high fever,chickenpox
+85,itchy eyes,weight loss,muscle pain,sore throat,hepatitis a
+86,dry cough,stomach pain,loss of appetite,nausea,asthma
+87,loss of appetite,high fever,sneezing,swollen lymph nodes,urinary tract infection
+88,light sensitivity,sweating,high fever,burning sensation,hepatitis a
+89,ear pain,white patches,throat pain,nausea,chickenpox
+90,vomiting,runny nose,swollen lymph nodes,loss of appetite,hepatitis b
+91,loss of appetite,nasal congestion,sore throat,runny nose,anemia
+92,dehydration,dry cough,headache,chills,typhoid
+93,frequent urination,dizziness,ear pain,back pain,covid-19
+94,high fever,sore throat,back pain,dark urine,strep throat
+95,neck stiffness,sweating,nasal congestion,light sensitivity,tuberculosis
+96,rapid heartbeat,chest pain,joint pain,weight loss,appendicitis
+97,swollen lymph nodes,night sweats,cough,abdominal pain,hypothyroidism
+98,loss of appetite,hair loss,weight loss,sneezing,allergies
+99,fatigue,headache,neck stiffness,vomiting,meningitis
+100,sweating,swollen lymph nodes,hair loss,neck stiffness,allergies
+101,sweating,shortness of breath,fatigue,chest pain,migraine
+102,shortness of breath,dark urine,skin redness,abdominal pain,bronchitis
+103,fatigue,sweating,fever,muscle pain,measles
+104,headache,difficulty swallowing,cough,light sensitivity,covid-19
+105,hair loss,persistent cough,shortness of breath,fever,dengue
+106,muscle pain,loss of appetite,abdominal pain,dizziness,hypothyroidism
+107,sweating,rash,throat pain,blurred vision,hepatitis c
+108,cough,stomach pain,sweating,rash,kidney infection
+109,headache,fatigue,swollen tonsils,difficulty swallowing,malaria
+110,muscle pain,white patches,swollen tonsils,shortness of breath,lung infection
+111,light sensitivity,muscle pain,dry cough,burning sensation,flu
+112,skin redness,white patches,back pain,sneezing,migraine
+113,dry cough,loss of appetite,shortness of breath,fever,common cold
+114,white patches,abdominal pain,dry cough,loss of appetite,hepatitis a
+115,diarrhea,dizziness,rash,sneezing,appendicitis
+116,sore throat,dry cough,blurred vision,difficulty swallowing,hepatitis c
+117,hair loss,rash,runny nose,chest pain,typhoid
+118,itchy eyes,persistent cough,high fever,nausea,kidney infection
+119,itchy eyes,skin redness,abdominal pain,headache,anemia
+120,night sweats,light sensitivity,white patches,high fever,meningitis
+121,hair loss,sweating,throat pain,chills,measles
+122,sore throat,persistent cough,dry cough,light sensitivity,chickenpox
+123,frequent urination,light sensitivity,runny nose,ear pain,malaria
+124,weight loss,diarrhea,high fever,fatigue,sinusitis
+125,runny nose,burning sensation,swollen lymph nodes,dry cough,dengue
+126,sneezing,runny nose,fatigue,swollen lymph nodes,measles
+127,frequent urination,chest pain,throat pain,weight loss,covid-19
+128,high fever,headache,dehydration,difficulty swallowing,tuberculosis
+129,sneezing,dark urine,loss of appetite,weight loss,bronchitis
+130,back pain,light sensitivity,chills,throat pain,common cold
+131,dehydration,itchy eyes,swollen tonsils,sneezing,migraine
+132,white patches,frequent urination,stomach pain,shortness of breath,asthma
+133,difficulty swallowing,burning sensation,weight loss,muscle pain,hepatitis a
+134,neck stiffness,fatigue,swollen lymph nodes,chest pain,pneumonia
+135,runny nose,ear pain,sweating,chest pain,hyperthyroidism
+136,sneezing,night sweats,fatigue,difficulty swallowing,food poisoning
+137,throat pain,rapid heartbeat,abdominal pain,swollen lymph nodes,skin allergy
+138,difficulty swallowing,chills,ear pain,stomach pain,hyperthyroidism
+139,frequent urination,back pain,skin redness,neck stiffness,hepatitis b
+140,dehydration,persistent cough,sneezing,itchy eyes,lung infection
+141,frequent urination,high fever,rapid heartbeat,light sensitivity,covid-19
+142,dehydration,nasal congestion,shortness of breath,difficulty swallowing,gastroenteritis
+143,shortness of breath,frequent urination,swollen lymph nodes,difficulty swallowing,lung infection
+144,itchy eyes,dark urine,swollen lymph nodes,light sensitivity,urinary tract infection
+145,night sweats,diarrhea,dehydration,weight loss,migraine
+146,skin redness,dehydration,fever,dark urine,skin allergy
+147,light sensitivity,chest pain,itchy eyes,nasal congestion,pneumonia
+148,joint pain,light sensitivity,itchy eyes,loss of appetite,allergies
+149,muscle pain,sore throat,dark urine,skin redness,ear infection
+150,runny nose,blurred vision,skin redness,fever,skin allergy
+151,blurred vision,headache,itchy eyes,stomach pain,appendicitis
+152,dizziness,nausea,rapid heartbeat,runny nose,appendicitis
+153,swollen lymph nodes,burning sensation,cough,back pain,sinusitis
+154,dark urine,light sensitivity,nausea,persistent cough,flu
+155,fatigue,throat pain,rash,high fever,hyperthyroidism
+156,fatigue,sneezing,diarrhea,light sensitivity,appendicitis
+157,runny nose,vomiting,fatigue,dark urine,ear infection
+158,sore throat,skin redness,swollen tonsils,high fever,lung infection
+159,persistent cough,chills,sweating,loss of appetite,strep throat
+160,fever,chills,chest pain,muscle pain,acid reflux
+161,sweating,skin redness,cough,throat pain,hepatitis a
+162,dehydration,nasal congestion,swollen lymph nodes,chills,typhoid
+163,headache,loss of appetite,persistent cough,muscle pain,appendicitis
+164,ear pain,throat pain,vomiting,cough,food poisoning
+165,swollen tonsils,night sweats,nausea,sweating,tuberculosis
+166,hair loss,high fever,white patches,rash,hypothyroidism
+167,swollen tonsils,nausea,chest pain,stomach pain,dengue
+168,neck stiffness,dizziness,diarrhea,skin redness,ear infection
+169,persistent cough,chest pain,loss of appetite,swollen lymph nodes,kidney infection
+170,hair loss,muscle pain,back pain,difficulty swallowing,strep throat
+171,night sweats,vomiting,shortness of breath,burning sensation,chickenpox
+172,persistent cough,throat pain,loss of appetite,joint pain,measles
+173,difficulty swallowing,night sweats,swollen lymph nodes,frequent urination,malaria
+174,light sensitivity,rapid heartbeat,abdominal pain,high fever,appendicitis
+175,cough,sweating,stomach pain,fatigue,allergies
+176,headache,difficulty swallowing,ear pain,abdominal pain,ear infection
+177,joint pain,dry cough,throat pain,burning sensation,anemia
+178,high fever,fever,throat pain,nausea,chikungunya
+179,cough,persistent cough,sweating,throat pain,hyperthyroidism
+180,nasal congestion,headache,frequent urination,hair loss,common cold
+181,frequent urination,dehydration,chest pain,skin redness,chickenpox
+182,nasal congestion,nausea,shortness of breath,stomach pain,hypothyroidism
+183,stomach pain,dry cough,rash,blurred vision,sinusitis
+184,white patches,sweating,dry cough,cough,ear infection
+185,runny nose,chills,swollen tonsils,sore throat,lung infection
+186,persistent cough,ear pain,rash,blurred vision,skin allergy
+187,vomiting,nausea,light sensitivity,chest pain,tuberculosis
+188,sweating,rash,skin redness,sneezing,common cold
+189,night sweats,ear pain,nausea,difficulty swallowing,migraine
+190,frequent urination,shortness of breath,light sensitivity,cough,asthma
+191,stomach pain,nausea,ear pain,persistent cough,pneumonia
+192,chills,runny nose,swollen lymph nodes,night sweats,hepatitis b
+193,difficulty swallowing,dehydration,rash,burning sensation,skin allergy
+194,ear pain,dry cough,difficulty swallowing,runny nose,urinary tract infection
+195,vomiting,sweating,fatigue,night sweats,jaundice
+196,dizziness,chest pain,runny nose,light sensitivity,ear infection
+197,ear pain,chest pain,frequent urination,nausea,measles
+198,chills,loss of appetite,muscle pain,diarrhea,meningitis
+199,throat pain,weight loss,skin redness,nasal congestion,tuberculosis
+200,frequent urination,white patches,sore throat,ear pain,measles
+201,rapid heartbeat,joint pain,diarrhea,night sweats,sinusitis
+202,fever,frequent urination,throat pain,vomiting,allergies
+203,skin redness,blurred vision,throat pain,night sweats,migraine
+204,stomach pain,skin redness,loss of appetite,itchy eyes,sinusitis
+205,back pain,swollen tonsils,cough,burning sensation,migraine
+206,sweating,skin redness,muscle pain,loss of appetite,asthma
+207,throat pain,burning sensation,fatigue,night sweats,common cold
+208,persistent cough,fever,difficulty swallowing,dehydration,pneumonia
+209,diarrhea,hair loss,chills,joint pain,hepatitis c
+210,dark urine,chills,rash,skin redness,appendicitis
+211,white patches,runny nose,headache,shortness of breath,lung infection
+212,vomiting,weight loss,blurred vision,fatigue,anemia
+213,skin redness,light sensitivity,difficulty swallowing,nasal congestion,malaria
+214,swollen tonsils,cough,sneezing,dry cough,skin allergy
+215,cough,joint pain,persistent cough,sore throat,hepatitis a
+216,light sensitivity,dehydration,frequent urination,fatigue,pneumonia
+217,sneezing,weight loss,chest pain,vomiting,malaria
+218,sweating,chills,difficulty swallowing,vomiting,chikungunya
+219,hair loss,chills,skin redness,itchy eyes,skin allergy
+220,skin redness,chest pain,rash,stomach pain,sinusitis
+221,hair loss,stomach pain,abdominal pain,blurred vision,food poisoning
+222,dark urine,neck stiffness,loss of appetite,vomiting,chikungunya
+223,headache,skin redness,light sensitivity,frequent urination,dengue
+224,weight loss,cough,diarrhea,hair loss,chickenpox
+225,fever,difficulty swallowing,blurred vision,headache,hepatitis b
+226,skin redness,neck stiffness,hair loss,stomach pain,lung infection
+227,loss of appetite,stomach pain,white patches,dark urine,hyperthyroidism
+228,fatigue,runny nose,swollen lymph nodes,rapid heartbeat,anemia
+229,chills,weight loss,high fever,shortness of breath,meningitis
+230,itchy eyes,chills,cough,difficulty swallowing,strep throat
+231,light sensitivity,shortness of breath,back pain,dehydration,migraine
+232,difficulty swallowing,nausea,burning sensation,cough,lung infection
+233,sweating,burning sensation,runny nose,neck stiffness,covid-19
+234,skin redness,swollen tonsils,light sensitivity,headache,anemia
+235,difficulty swallowing,night sweats,persistent cough,ear pain,chikungunya
+236,joint pain,dry cough,vomiting,throat pain,anemia
+237,muscle pain,loss of appetite,itchy eyes,shortness of breath,urinary tract infection
+238,frequent urination,ear pain,night sweats,sneezing,food poisoning
+239,high fever,back pain,fever,diarrhea,migraine
+240,throat pain,runny nose,light sensitivity,muscle pain,hepatitis b
+241,chills,abdominal pain,burning sensation,ear pain,ear infection
+242,muscle pain,cough,rapid heartbeat,chills,food poisoning
+243,sneezing,throat pain,blurred vision,skin redness,pneumonia
+244,stomach pain,swollen lymph nodes,itchy eyes,nasal congestion,common cold
+245,fatigue,ear pain,dark urine,skin redness,common cold
+246,shortness of breath,swollen lymph nodes,joint pain,blurred vision,hepatitis b
+247,nausea,headache,blurred vision,night sweats,hepatitis c
+248,fever,light sensitivity,headache,sneezing,chickenpox
+249,loss of appetite,diarrhea,sweating,cough,sinusitis
+250,high fever,nasal congestion,muscle pain,burning sensation,hypothyroidism
+251,fever,ear pain,chest pain,sweating,meningitis
+252,skin redness,joint pain,rapid heartbeat,light sensitivity,food poisoning
+253,headache,nausea,runny nose,abdominal pain,hyperthyroidism
+254,swollen lymph nodes,diarrhea,dark urine,sore throat,jaundice
+255,rapid heartbeat,throat pain,skin redness,persistent cough,allergies
+256,loss of appetite,swollen tonsils,frequent urination,shortness of breath,typhoid
+257,rash,headache,nasal congestion,swollen lymph nodes,gastroenteritis
+258,muscle pain,dark urine,stomach pain,joint pain,hyperthyroidism
+259,ear pain,sweating,swollen lymph nodes,rapid heartbeat,lung infection
+260,loss of appetite,swollen tonsils,persistent cough,night sweats,anemia
+261,throat pain,skin redness,swollen lymph nodes,sore throat,hepatitis a
+262,diarrhea,cough,joint pain,stomach pain,kidney infection
+263,rash,cough,rapid heartbeat,muscle pain,dengue
+264,dehydration,throat pain,diarrhea,neck stiffness,malaria
+265,rash,difficulty swallowing,throat pain,dehydration,ear infection
+266,cough,runny nose,back pain,dry cough,migraine
+267,dehydration,itchy eyes,hair loss,ear pain,typhoid
+268,fever,throat pain,rash,nasal congestion,chikungunya
+269,swollen tonsils,difficulty swallowing,fever,loss of appetite,bronchitis
+270,sore throat,burning sensation,high fever,difficulty swallowing,chikungunya
+271,frequent urination,difficulty swallowing,dark urine,white patches,pneumonia
+272,back pain,chills,light sensitivity,nasal congestion,pneumonia
+273,sore throat,dehydration,sneezing,runny nose,bronchitis
+274,swollen tonsils,blurred vision,burning sensation,persistent cough,urinary tract infection
+275,rash,abdominal pain,fever,fatigue,pneumonia
+276,nasal congestion,dry cough,swollen tonsils,neck stiffness,tuberculosis
+277,swollen tonsils,blurred vision,joint pain,shortness of breath,hyperthyroidism
+278,sneezing,nausea,sweating,white patches,malaria
+279,abdominal pain,sweating,dry cough,chills,allergies
+280,vomiting,headache,frequent urination,throat pain,food poisoning
+281,dark urine,sore throat,skin redness,weight loss,hepatitis c
+282,frequent urination,back pain,runny nose,neck stiffness,hepatitis a
+283,chest pain,light sensitivity,chills,throat pain,chickenpox
+284,rash,ear pain,skin redness,swollen lymph nodes,covid-19
+285,high fever,chills,nasal congestion,rapid heartbeat,asthma
+286,hair loss,dehydration,high fever,blurred vision,appendicitis
+287,rapid heartbeat,persistent cough,loss of appetite,swollen lymph nodes,anemia
+288,runny nose,weight loss,loss of appetite,chest pain,jaundice
+289,sore throat,night sweats,persistent cough,muscle pain,gastroenteritis
+290,nasal congestion,throat pain,back pain,chills,chickenpox
+291,diarrhea,ear pain,itchy eyes,fatigue,malaria
+292,weight loss,white patches,blurred vision,night sweats,common cold
+293,hair loss,persistent cough,stomach pain,night sweats,hepatitis b
+294,headache,fever,light sensitivity,sneezing,kidney infection
+295,swollen tonsils,ear pain,abdominal pain,hair loss,kidney infection
+296,swollen tonsils,headache,frequent urination,difficulty swallowing,flu
+297,chills,blurred vision,weight loss,dry cough,skin allergy
+298,weight loss,skin redness,white patches,dehydration,hypothyroidism
+299,abdominal pain,white patches,joint pain,itchy eyes,chickenpox
+300,difficulty swallowing,loss of appetite,sneezing,diarrhea,dengue
+301,high fever,rash,sneezing,diarrhea,common cold
+302,burning sensation,back pain,difficulty swallowing,fatigue,measles
+303,rash,cough,burning sensation,light sensitivity,anemia
+304,throat pain,hair loss,rash,nasal congestion,migraine
+305,abdominal pain,blurred vision,dry cough,runny nose,hepatitis c
+306,chest pain,back pain,sore throat,blurred vision,skin allergy
+307,diarrhea,rash,sore throat,back pain,lung infection
+308,vomiting,neck stiffness,blurred vision,persistent cough,chickenpox
+309,fever,nasal congestion,swollen lymph nodes,burning sensation,hepatitis c
+310,dark urine,sore throat,cough,sneezing,ear infection
+311,persistent cough,sore throat,abdominal pain,dry cough,hypothyroidism
+312,muscle pain,throat pain,dark urine,ear pain,pneumonia
+313,nasal congestion,fever,diarrhea,high fever,chickenpox
+314,fatigue,dehydration,sneezing,skin redness,hepatitis c
+315,dark urine,rash,swollen tonsils,nausea,jaundice
+316,hair loss,swollen tonsils,neck stiffness,vomiting,sinusitis
+317,sweating,itchy eyes,rapid heartbeat,dizziness,dengue
+318,neck stiffness,difficulty swallowing,runny nose,muscle pain,gastroenteritis
+319,sweating,abdominal pain,dry cough,night sweats,common cold
+320,swollen tonsils,nasal congestion,skin redness,white patches,tuberculosis
+321,shortness of breath,night sweats,swollen tonsils,cough,malaria
+322,blurred vision,throat pain,diarrhea,nasal congestion,anemia
+323,back pain,dizziness,sweating,joint pain,malaria
+324,dehydration,blurred vision,diarrhea,dizziness,kidney infection
+325,hair loss,dry cough,abdominal pain,nasal congestion,allergies
+326,loss of appetite,hair loss,dizziness,rash,covid-19
+327,swollen tonsils,chills,weight loss,stomach pain,sinusitis
+328,stomach pain,headache,high fever,nausea,anemia
+329,ear pain,throat pain,weight loss,sore throat,hepatitis a
+330,rash,runny nose,abdominal pain,swollen lymph nodes,urinary tract infection
+331,stomach pain,burning sensation,neck stiffness,rapid heartbeat,chikungunya
+332,hair loss,back pain,sore throat,dehydration,measles
+333,swollen tonsils,loss of appetite,abdominal pain,throat pain,common cold
+334,high fever,itchy eyes,chills,neck stiffness,anemia
+335,dark urine,loss of appetite,fatigue,blurred vision,allergies
+336,high fever,joint pain,sweating,white patches,chikungunya
+337,high fever,stomach pain,headache,ear pain,typhoid
+338,white patches,night sweats,nausea,dry cough,anemia
+339,back pain,loss of appetite,fatigue,dry cough,jaundice
+340,ear pain,vomiting,fever,rash,hepatitis b
+341,white patches,abdominal pain,joint pain,shortness of breath,allergies
+342,chills,chest pain,hair loss,ear pain,common cold
+343,burning sensation,nasal congestion,light sensitivity,muscle pain,hepatitis b
+344,dizziness,frequent urination,stomach pain,abdominal pain,hepatitis c
+345,sweating,joint pain,frequent urination,swollen lymph nodes,typhoid
+346,blurred vision,frequent urination,throat pain,high fever,malaria
+347,sweating,night sweats,sneezing,throat pain,allergies
+348,rash,loss of appetite,abdominal pain,frequent urination,bronchitis
+349,runny nose,back pain,diarrhea,burning sensation,meningitis
+350,back pain,high fever,weight loss,sneezing,allergies
+351,fever,cough,sweating,difficulty swallowing,malaria
+352,sneezing,sore throat,nausea,muscle pain,skin allergy
+353,weight loss,stomach pain,nausea,ear pain,skin allergy
+354,weight loss,chills,throat pain,loss of appetite,asthma
+355,itchy eyes,dizziness,swollen lymph nodes,persistent cough,hepatitis a
+356,muscle pain,fatigue,skin redness,persistent cough,bronchitis
+357,chest pain,light sensitivity,fever,frequent urination,tuberculosis
+358,high fever,shortness of breath,night sweats,fatigue,chickenpox
+359,sweating,abdominal pain,diarrhea,shortness of breath,typhoid
+360,throat pain,rash,chest pain,sneezing,strep throat
+361,sore throat,dry cough,ear pain,headache,common cold
+362,itchy eyes,fatigue,diarrhea,white patches,ear infection
+363,rapid heartbeat,high fever,joint pain,chills,strep throat
+364,diarrhea,chest pain,stomach pain,runny nose,anemia
+365,sore throat,vomiting,diarrhea,fever,strep throat
+366,frequent urination,blurred vision,dark urine,runny nose,typhoid
+367,neck stiffness,hair loss,dehydration,white patches,skin allergy
+368,loss of appetite,sneezing,headache,cough,hyperthyroidism
+369,dehydration,abdominal pain,nausea,rash,acid reflux
+370,chills,night sweats,diarrhea,blurred vision,strep throat
+371,fever,dizziness,shortness of breath,rash,hepatitis a
+372,dry cough,abdominal pain,loss of appetite,hair loss,allergies
+373,weight loss,dark urine,stomach pain,light sensitivity,malaria
+374,chills,light sensitivity,sneezing,runny nose,hepatitis a
+375,rash,burning sensation,loss of appetite,rapid heartbeat,common cold
+376,cough,fatigue,sweating,ear pain,ear infection
+377,dry cough,dark urine,throat pain,burning sensation,lung infection
+378,abdominal pain,vomiting,burning sensation,cough,typhoid
+379,swollen lymph nodes,shortness of breath,dry cough,chills,hepatitis c
+380,headache,burning sensation,chest pain,swollen tonsils,flu
+381,dark urine,rash,sweating,itchy eyes,allergies
+382,muscle pain,white patches,shortness of breath,loss of appetite,hepatitis b
+383,chest pain,sneezing,sweating,dehydration,pneumonia
+384,sore throat,back pain,ear pain,shortness of breath,chickenpox
+385,high fever,nasal congestion,dry cough,sneezing,gastroenteritis
+386,burning sensation,hair loss,fever,headache,malaria
+387,dehydration,back pain,difficulty swallowing,nasal congestion,hepatitis c
+388,runny nose,sneezing,cough,dizziness,bronchitis
+389,rapid heartbeat,white patches,dark urine,swollen lymph nodes,tuberculosis
+390,ear pain,neck stiffness,swollen tonsils,skin redness,chickenpox
+391,dry cough,swollen lymph nodes,skin redness,neck stiffness,malaria
+392,joint pain,dark urine,muscle pain,sneezing,covid-19
+393,sneezing,sweating,stomach pain,headache,ear infection
+394,dark urine,difficulty swallowing,dry cough,joint pain,hepatitis c
+395,rash,dehydration,shortness of breath,loss of appetite,skin allergy
+396,back pain,joint pain,abdominal pain,itchy eyes,kidney infection
+397,dizziness,sneezing,dry cough,joint pain,jaundice
+398,joint pain,sweating,chills,burning sensation,acid reflux
+399,high fever,chest pain,joint pain,stomach pain,tuberculosis
+400,headache,frequent urination,dehydration,nasal congestion,urinary tract infection
+401,persistent cough,weight loss,swollen lymph nodes,fatigue,food poisoning
+402,sore throat,nasal congestion,weight loss,persistent cough,hepatitis a
+403,rash,neck stiffness,swollen tonsils,blurred vision,lung infection
+404,joint pain,neck stiffness,ear pain,sweating,tuberculosis
+405,swollen lymph nodes,hair loss,dehydration,loss of appetite,typhoid
+406,rapid heartbeat,blurred vision,ear pain,night sweats,urinary tract infection
+407,dizziness,hair loss,difficulty swallowing,neck stiffness,hyperthyroidism
+408,persistent cough,hair loss,vomiting,weight loss,dengue
+409,sneezing,blurred vision,nasal congestion,chills,food poisoning
+410,stomach pain,ear pain,weight loss,dry cough,bronchitis
+411,runny nose,dry cough,burning sensation,stomach pain,chikungunya
+412,itchy eyes,night sweats,chest pain,blurred vision,kidney infection
+413,burning sensation,ear pain,difficulty swallowing,white patches,meningitis
+414,night sweats,muscle pain,rash,neck stiffness,ear infection
+415,dark urine,persistent cough,ear pain,throat pain,migraine
+416,itchy eyes,ear pain,runny nose,frequent urination,hypothyroidism
+417,shortness of breath,rapid heartbeat,dizziness,frequent urination,tuberculosis
+418,high fever,night sweats,blurred vision,frequent urination,acid reflux
+419,muscle pain,fever,blurred vision,dry cough,chikungunya
+420,fever,sweating,rash,light sensitivity,meningitis
+421,hair loss,weight loss,sneezing,joint pain,common cold
+422,joint pain,persistent cough,high fever,vomiting,dengue
+423,persistent cough,fatigue,loss of appetite,swollen tonsils,meningitis
+424,back pain,sneezing,rash,nasal congestion,urinary tract infection
+425,throat pain,joint pain,abdominal pain,nausea,ear infection
+426,shortness of breath,nasal congestion,headache,muscle pain,sinusitis
+427,vomiting,nausea,ear pain,rapid heartbeat,urinary tract infection
+428,loss of appetite,shortness of breath,ear pain,throat pain,typhoid
+429,hair loss,difficulty swallowing,chills,ear pain,urinary tract infection
+430,rapid heartbeat,sweating,chest pain,sneezing,meningitis
+431,sneezing,chills,sweating,abdominal pain,kidney infection
+432,swollen lymph nodes,abdominal pain,throat pain,weight loss,hepatitis c
+433,loss of appetite,ear pain,persistent cough,skin redness,ear infection
+434,fatigue,stomach pain,runny nose,frequent urination,skin allergy
+435,difficulty swallowing,night sweats,throat pain,shortness of breath,common cold
+436,white patches,weight loss,nasal congestion,swollen tonsils,malaria
+437,blurred vision,rash,chest pain,stomach pain,allergies
+438,sweating,dry cough,night sweats,joint pain,hyperthyroidism
+439,chest pain,dry cough,high fever,cough,pneumonia
+440,diarrhea,light sensitivity,skin redness,muscle pain,bronchitis
+441,frequent urination,persistent cough,blurred vision,dry cough,skin allergy
+442,dizziness,swollen tonsils,sore throat,light sensitivity,strep throat
+443,shortness of breath,sore throat,rash,ear pain,hypothyroidism
+444,diarrhea,vomiting,throat pain,dehydration,migraine
+445,muscle pain,diarrhea,swollen lymph nodes,persistent cough,gastroenteritis
+446,sore throat,skin redness,runny nose,dehydration,chickenpox
+447,chest pain,weight loss,throat pain,muscle pain,measles
+448,dark urine,persistent cough,sweating,dizziness,flu
+449,chest pain,nasal congestion,rapid heartbeat,light sensitivity,asthma
+450,itchy eyes,chest pain,rapid heartbeat,loss of appetite,ear infection
+451,rash,fever,chest pain,stomach pain,common cold
+452,white patches,chills,sweating,nasal congestion,allergies
+453,swollen lymph nodes,fatigue,persistent cough,frequent urination,flu
+454,cough,sweating,dry cough,muscle pain,pneumonia
+455,sweating,white patches,difficulty swallowing,rash,lung infection
+456,throat pain,swollen tonsils,sore throat,blurred vision,allergies
+457,rapid heartbeat,swollen tonsils,nausea,hair loss,hyperthyroidism
+458,headache,stomach pain,dry cough,high fever,measles
+459,dry cough,chills,vomiting,frequent urination,anemia
+460,frequent urination,back pain,burning sensation,difficulty swallowing,urinary tract infection
+461,back pain,night sweats,abdominal pain,fever,food poisoning
+462,rapid heartbeat,shortness of breath,chills,sweating,hepatitis b
+463,vomiting,dehydration,difficulty swallowing,neck stiffness,jaundice
+464,rash,dark urine,chills,headache,hyperthyroidism
+465,dry cough,swollen lymph nodes,back pain,chest pain,common cold
+466,dehydration,hair loss,dry cough,chest pain,meningitis
+467,headache,fever,burning sensation,sore throat,dengue
+468,blurred vision,difficulty swallowing,abdominal pain,joint pain,sinusitis
+469,hair loss,chills,ear pain,fever,typhoid
+470,dry cough,nausea,fatigue,nasal congestion,tuberculosis
+471,runny nose,stomach pain,chills,neck stiffness,covid-19
+472,burning sensation,neck stiffness,dark urine,rash,malaria
+473,blurred vision,sore throat,high fever,night sweats,acid reflux
+474,persistent cough,skin redness,night sweats,joint pain,strep throat
+475,neck stiffness,itchy eyes,dark urine,frequent urination,skin allergy
+476,stomach pain,itchy eyes,dizziness,nausea,urinary tract infection
+477,fatigue,chills,chest pain,nasal congestion,hepatitis c
+478,light sensitivity,stomach pain,hair loss,frequent urination,dengue
+479,high fever,vomiting,dry cough,white patches,jaundice
+480,shortness of breath,sneezing,dizziness,hair loss,flu
+481,swollen lymph nodes,vomiting,weight loss,throat pain,food poisoning
+482,joint pain,loss of appetite,sore throat,ear pain,strep throat
+483,loss of appetite,frequent urination,weight loss,dry cough,tuberculosis
+484,headache,back pain,shortness of breath,loss of appetite,measles
+485,sore throat,frequent urination,weight loss,night sweats,asthma
+486,back pain,chills,dizziness,nausea,tuberculosis
+487,rash,throat pain,sore throat,neck stiffness,allergies
+488,fever,itchy eyes,diarrhea,night sweats,measles
+489,muscle pain,chills,itchy eyes,loss of appetite,bronchitis
+490,high fever,swollen tonsils,shortness of breath,rapid heartbeat,food poisoning
+491,headache,nausea,swollen lymph nodes,hair loss,hyperthyroidism
+492,stomach pain,headache,diarrhea,dry cough,hepatitis c
+493,nausea,nasal congestion,vomiting,runny nose,meningitis
+494,dark urine,chills,vomiting,stomach pain,sinusitis
+495,high fever,fever,diarrhea,skin redness,flu
+496,chills,stomach pain,fatigue,burning sensation,jaundice
+497,chest pain,weight loss,night sweats,nasal congestion,asthma
+498,stomach pain,fever,nasal congestion,joint pain,acid reflux
+499,neck stiffness,sneezing,sore throat,loss of appetite,strep throat
+500,dehydration,nausea,dry cough,abdominal pain,hypothyroidism
+501,blurred vision,back pain,muscle pain,abdominal pain,hepatitis a
+502,skin redness,high fever,joint pain,nasal congestion,dengue
+503,nausea,dehydration,itchy eyes,fever,skin allergy
+504,persistent cough,sore throat,sweating,neck stiffness,bronchitis
+505,night sweats,light sensitivity,chills,frequent urination,pneumonia
+506,burning sensation,light sensitivity,rash,weight loss,hyperthyroidism
+507,abdominal pain,stomach pain,rapid heartbeat,fever,sinusitis
+508,high fever,throat pain,hair loss,sweating,dengue
+509,fatigue,dark urine,rapid heartbeat,shortness of breath,typhoid
+510,shortness of breath,difficulty swallowing,weight loss,high fever,meningitis
+511,stomach pain,cough,burning sensation,persistent cough,chickenpox
+512,dehydration,headache,fatigue,joint pain,sinusitis
+513,back pain,sneezing,stomach pain,dehydration,hepatitis a
+514,rash,chills,headache,chest pain,hypothyroidism
+515,dizziness,fever,burning sensation,sore throat,food poisoning
+516,sweating,skin redness,weight loss,difficulty swallowing,jaundice
+517,dizziness,neck stiffness,sore throat,back pain,hypothyroidism
+518,cough,sweating,chills,blurred vision,skin allergy
+519,nausea,swollen lymph nodes,swollen tonsils,diarrhea,pneumonia
+520,skin redness,runny nose,dark urine,weight loss,jaundice
+521,joint pain,white patches,dizziness,light sensitivity,hepatitis b
+522,frequent urination,skin redness,sweating,sneezing,ear infection
+523,vomiting,joint pain,light sensitivity,blurred vision,kidney infection
+524,sweating,persistent cough,joint pain,burning sensation,kidney infection
+525,itchy eyes,night sweats,blurred vision,swollen tonsils,hepatitis a
+526,frequent urination,shortness of breath,diarrhea,ear pain,malaria
+527,joint pain,night sweats,muscle pain,dehydration,covid-19
+528,ear pain,neck stiffness,dry cough,difficulty swallowing,flu
+529,white patches,fatigue,dry cough,night sweats,covid-19
+530,nasal congestion,persistent cough,abdominal pain,high fever,hyperthyroidism
+531,itchy eyes,rapid heartbeat,chills,burning sensation,pneumonia
+532,runny nose,headache,burning sensation,sneezing,allergies
+533,light sensitivity,rapid heartbeat,shortness of breath,night sweats,common cold
+534,dehydration,white patches,difficulty swallowing,weight loss,chikungunya
+535,white patches,frequent urination,dizziness,ear pain,common cold
+536,headache,nausea,rash,night sweats,meningitis
+537,hair loss,stomach pain,shortness of breath,dark urine,chikungunya
+538,loss of appetite,weight loss,vomiting,nausea,skin allergy
+539,high fever,joint pain,white patches,swollen tonsils,asthma
+540,abdominal pain,dehydration,sweating,joint pain,covid-19
+541,sore throat,ear pain,abdominal pain,diarrhea,meningitis
+542,vomiting,persistent cough,frequent urination,dehydration,flu
+543,fatigue,ear pain,chest pain,itchy eyes,hypothyroidism
+544,shortness of breath,dry cough,runny nose,neck stiffness,acid reflux
+545,ear pain,rash,skin redness,cough,covid-19
+546,chills,ear pain,dry cough,rapid heartbeat,appendicitis
+547,headache,nasal congestion,fever,loss of appetite,appendicitis
+548,night sweats,dizziness,rapid heartbeat,blurred vision,hyperthyroidism
+549,chills,dry cough,stomach pain,back pain,asthma
+550,nausea,ear pain,swollen lymph nodes,weight loss,skin allergy
+551,stomach pain,hair loss,burning sensation,itchy eyes,common cold
+552,nausea,dizziness,light sensitivity,chills,meningitis
+553,vomiting,back pain,dizziness,light sensitivity,lung infection
+554,ear pain,frequent urination,swollen tonsils,light sensitivity,covid-19
+555,throat pain,swollen tonsils,burning sensation,chills,chickenpox
+556,sweating,throat pain,shortness of breath,difficulty swallowing,ear infection
+557,chest pain,swollen tonsils,swollen lymph nodes,rapid heartbeat,kidney infection
+558,high fever,dark urine,light sensitivity,cough,pneumonia
+559,nausea,rash,light sensitivity,itchy eyes,hepatitis a
+560,vomiting,persistent cough,dehydration,weight loss,allergies
+561,light sensitivity,sweating,night sweats,cough,chickenpox
+562,swollen lymph nodes,white patches,cough,chills,bronchitis
+563,sore throat,neck stiffness,rash,itchy eyes,skin allergy
+564,fatigue,nausea,sore throat,dizziness,hypothyroidism
+565,dizziness,night sweats,light sensitivity,persistent cough,appendicitis
+566,vomiting,cough,nasal congestion,throat pain,chickenpox
+567,blurred vision,dizziness,sneezing,hair loss,acid reflux
+568,dehydration,dizziness,nausea,rash,tuberculosis
+569,frequent urination,neck stiffness,itchy eyes,sneezing,dengue
+570,weight loss,fatigue,rapid heartbeat,hair loss,meningitis
+571,light sensitivity,sneezing,nasal congestion,nausea,tuberculosis
+572,rash,shortness of breath,rapid heartbeat,diarrhea,covid-19
+573,swollen lymph nodes,diarrhea,fever,sore throat,strep throat
+574,joint pain,loss of appetite,fever,dark urine,tuberculosis
+575,fatigue,neck stiffness,dehydration,nasal congestion,flu
+576,fatigue,swollen tonsils,dizziness,throat pain,sinusitis
+577,skin redness,light sensitivity,stomach pain,sore throat,asthma
+578,hair loss,fatigue,skin redness,dizziness,measles
+579,weight loss,high fever,dry cough,diarrhea,allergies
+580,fatigue,persistent cough,weight loss,vomiting,pneumonia
+581,persistent cough,neck stiffness,dizziness,burning sensation,meningitis
+582,ear pain,frequent urination,persistent cough,back pain,dengue
+583,burning sensation,difficulty swallowing,light sensitivity,dizziness,malaria
+584,high fever,diarrhea,rapid heartbeat,throat pain,hepatitis c
+585,chest pain,dizziness,swollen tonsils,light sensitivity,skin allergy
+586,sweating,white patches,frequent urination,neck stiffness,tuberculosis
+587,loss of appetite,sneezing,cough,chest pain,malaria
+588,rash,joint pain,dizziness,blurred vision,covid-19
+589,nausea,stomach pain,dark urine,white patches,acid reflux
+590,frequent urination,vomiting,ear pain,dizziness,common cold
+591,night sweats,loss of appetite,weight loss,blurred vision,anemia
+592,abdominal pain,swollen lymph nodes,white patches,headache,kidney infection
+593,rash,dizziness,fatigue,diarrhea,kidney infection
+594,vomiting,high fever,itchy eyes,back pain,gastroenteritis
+595,shortness of breath,weight loss,diarrhea,difficulty swallowing,dengue
+596,neck stiffness,fever,cough,sore throat,flu
+597,white patches,night sweats,swollen tonsils,runny nose,acid reflux
+598,shortness of breath,dehydration,cough,sore throat,common cold
+599,persistent cough,runny nose,white patches,blurred vision,hypothyroidism
+600,dehydration,chest pain,joint pain,neck stiffness,ear infection
+601,white patches,blurred vision,nausea,cough,hepatitis c
+602,chills,high fever,rapid heartbeat,neck stiffness,bronchitis
+603,rash,swollen tonsils,loss of appetite,night sweats,hepatitis a
+604,dehydration,neck stiffness,throat pain,shortness of breath,hepatitis b
+605,neck stiffness,nasal congestion,throat pain,nausea,jaundice
+606,rapid heartbeat,burning sensation,nasal congestion,ear pain,ear infection
+607,rapid heartbeat,loss of appetite,difficulty swallowing,joint pain,urinary tract infection
+608,shortness of breath,neck stiffness,rapid heartbeat,burning sensation,malaria
+609,persistent cough,dark urine,abdominal pain,itchy eyes,skin allergy
+610,high fever,rash,runny nose,dry cough,acid reflux
+611,fatigue,burning sensation,nausea,nasal congestion,meningitis
+612,fever,swollen lymph nodes,ear pain,hair loss,urinary tract infection
+613,dizziness,burning sensation,difficulty swallowing,rapid heartbeat,hypothyroidism
+614,runny nose,white patches,sneezing,fever,hypothyroidism
+615,cough,frequent urination,itchy eyes,dizziness,hepatitis c
+616,sweating,cough,sneezing,muscle pain,kidney infection
+617,sore throat,white patches,rash,cough,flu
+618,vomiting,sneezing,skin redness,swollen lymph nodes,measles
+619,light sensitivity,high fever,fever,hair loss,gastroenteritis
+620,sweating,stomach pain,rash,back pain,acid reflux
+621,swollen lymph nodes,fatigue,high fever,shortness of breath,malaria
+622,dehydration,muscle pain,hair loss,dark urine,sinusitis
+623,nausea,chest pain,rapid heartbeat,swollen lymph nodes,urinary tract infection
+624,skin redness,joint pain,frequent urination,sore throat,chickenpox
+625,dark urine,back pain,throat pain,vomiting,tuberculosis
+626,white patches,back pain,throat pain,nasal congestion,hypothyroidism
+627,hair loss,burning sensation,fever,chills,tuberculosis
+628,dehydration,chest pain,vomiting,white patches,tuberculosis
+629,chills,stomach pain,weight loss,dark urine,acid reflux
+630,rapid heartbeat,runny nose,joint pain,light sensitivity,anemia
+631,night sweats,blurred vision,nasal congestion,chills,ear infection
+632,dark urine,fatigue,swollen tonsils,weight loss,tuberculosis
+633,light sensitivity,dark urine,sore throat,persistent cough,typhoid
+634,headache,sneezing,sweating,dry cough,meningitis
+635,nausea,blurred vision,vomiting,joint pain,hepatitis a
+636,sore throat,itchy eyes,neck stiffness,stomach pain,meningitis
+637,cough,blurred vision,high fever,diarrhea,hepatitis b
+638,vomiting,persistent cough,rash,runny nose,skin allergy
+639,swollen lymph nodes,fatigue,itchy eyes,back pain,chickenpox
+640,headache,dizziness,light sensitivity,rapid heartbeat,pneumonia
+641,sneezing,itchy eyes,swollen tonsils,rapid heartbeat,chickenpox
+642,nausea,weight loss,dehydration,shortness of breath,strep throat
+643,itchy eyes,vomiting,rash,skin redness,allergies
+644,chest pain,high fever,night sweats,blurred vision,acid reflux
+645,nausea,fever,joint pain,swollen lymph nodes,malaria
+646,swollen tonsils,sneezing,fever,chest pain,hepatitis b
+647,burning sensation,itchy eyes,weight loss,nasal congestion,food poisoning
+648,sweating,light sensitivity,runny nose,neck stiffness,appendicitis
+649,runny nose,chest pain,nausea,loss of appetite,skin allergy
+650,ear pain,back pain,skin redness,burning sensation,ear infection
+651,itchy eyes,night sweats,white patches,hair loss,hepatitis b
+652,loss of appetite,joint pain,high fever,blurred vision,hepatitis b
+653,light sensitivity,cough,dehydration,swollen tonsils,jaundice
+654,dark urine,loss of appetite,nausea,chills,gastroenteritis
+655,nausea,night sweats,white patches,chest pain,tuberculosis
+656,muscle pain,sneezing,rapid heartbeat,runny nose,strep throat
+657,cough,hair loss,fever,sweating,dengue
+658,weight loss,runny nose,chest pain,stomach pain,hepatitis c
+659,burning sensation,throat pain,runny nose,sneezing,chickenpox
+660,fatigue,back pain,nausea,chills,anemia
+661,swollen tonsils,itchy eyes,skin redness,muscle pain,dengue
+662,sore throat,loss of appetite,back pain,fever,meningitis
+663,high fever,shortness of breath,itchy eyes,fever,dengue
+664,rash,rapid heartbeat,frequent urination,weight loss,hepatitis c
+665,sore throat,throat pain,loss of appetite,white patches,pneumonia
+666,back pain,swollen tonsils,dry cough,swollen lymph nodes,strep throat
+667,burning sensation,joint pain,chest pain,loss of appetite,hepatitis c
+668,cough,skin redness,rapid heartbeat,chills,kidney infection
+669,shortness of breath,rapid heartbeat,runny nose,neck stiffness,malaria
+670,itchy eyes,fatigue,rash,frequent urination,chikungunya
+671,nausea,swollen tonsils,fever,back pain,acid reflux
+672,weight loss,stomach pain,rash,vomiting,migraine
+673,night sweats,persistent cough,burning sensation,frequent urination,measles
+674,abdominal pain,swollen tonsils,nausea,difficulty swallowing,meningitis
+675,fever,ear pain,stomach pain,abdominal pain,urinary tract infection
+676,headache,dry cough,itchy eyes,hair loss,jaundice
+677,vomiting,dizziness,cough,hair loss,bronchitis
+678,burning sensation,nasal congestion,swollen lymph nodes,abdominal pain,tuberculosis
+679,chest pain,abdominal pain,swollen tonsils,ear pain,covid-19
+680,loss of appetite,shortness of breath,persistent cough,nausea,malaria
+681,white patches,nausea,muscle pain,runny nose,common cold
+682,shortness of breath,burning sensation,back pain,difficulty swallowing,typhoid
+683,skin redness,back pain,burning sensation,neck stiffness,pneumonia
+684,sweating,hair loss,dry cough,runny nose,lung infection
+685,rapid heartbeat,back pain,headache,dizziness,tuberculosis
+686,runny nose,cough,ear pain,blurred vision,gastroenteritis
+687,dizziness,dehydration,joint pain,runny nose,allergies
+688,sneezing,dry cough,runny nose,blurred vision,skin allergy
+689,persistent cough,sweating,skin redness,sore throat,typhoid
+690,nausea,burning sensation,swollen tonsils,loss of appetite,anemia
+691,cough,loss of appetite,diarrhea,dark urine,acid reflux
+692,nasal congestion,chest pain,sneezing,ear pain,skin allergy
+693,white patches,night sweats,fatigue,ear pain,chikungunya
+694,fever,skin redness,loss of appetite,high fever,strep throat
+695,swollen lymph nodes,burning sensation,skin redness,headache,food poisoning
+696,dark urine,dizziness,dry cough,chills,kidney infection
+697,abdominal pain,dehydration,hair loss,dark urine,kidney infection
+698,light sensitivity,back pain,headache,fever,malaria
+699,dry cough,sneezing,hair loss,high fever,chikungunya
+700,stomach pain,swollen lymph nodes,frequent urination,rash,meningitis
+701,sweating,dark urine,rash,abdominal pain,anemia
+702,rapid heartbeat,chills,sweating,burning sensation,hepatitis a
+703,swollen lymph nodes,itchy eyes,sore throat,frequent urination,pneumonia
+704,cough,dehydration,frequent urination,rash,measles
+705,dehydration,fever,nasal congestion,persistent cough,ear infection
+706,sneezing,abdominal pain,frequent urination,chest pain,hepatitis a
+707,swollen tonsils,back pain,loss of appetite,sweating,kidney infection
+708,rash,throat pain,sweating,high fever,dengue
+709,ear pain,diarrhea,sore throat,high fever,urinary tract infection
+710,nasal congestion,sneezing,persistent cough,hair loss,chickenpox
+711,dark urine,headache,high fever,back pain,sinusitis
+712,ear pain,shortness of breath,chest pain,joint pain,hepatitis c
+713,fatigue,difficulty swallowing,weight loss,diarrhea,asthma
+714,frequent urination,muscle pain,fever,vomiting,malaria
+715,skin redness,fever,throat pain,muscle pain,typhoid
+716,weight loss,muscle pain,shortness of breath,white patches,typhoid
+717,loss of appetite,skin redness,cough,fever,hepatitis c
+718,joint pain,throat pain,back pain,light sensitivity,gastroenteritis
+719,diarrhea,itchy eyes,runny nose,ear pain,urinary tract infection
+720,difficulty swallowing,frequent urination,cough,nasal congestion,strep throat
+721,burning sensation,dry cough,swollen tonsils,dizziness,covid-19
+722,neck stiffness,stomach pain,blurred vision,night sweats,gastroenteritis
+723,persistent cough,itchy eyes,rapid heartbeat,rash,common cold
+724,dehydration,sweating,swollen lymph nodes,stomach pain,dengue
+725,blurred vision,dizziness,skin redness,rash,hepatitis a
+726,chest pain,fatigue,dizziness,swollen tonsils,covid-19
+727,nasal congestion,difficulty swallowing,back pain,weight loss,chickenpox
+728,back pain,fever,fatigue,blurred vision,jaundice
+729,frequent urination,back pain,sneezing,skin redness,migraine
+730,persistent cough,dizziness,nasal congestion,rapid heartbeat,lung infection
+731,neck stiffness,itchy eyes,frequent urination,skin redness,gastroenteritis
+732,persistent cough,nasal congestion,headache,weight loss,anemia
+733,nausea,burning sensation,throat pain,shortness of breath,ear infection
+734,diarrhea,swollen tonsils,sore throat,back pain,asthma
+735,blurred vision,swollen tonsils,ear pain,nausea,covid-19
+736,cough,night sweats,throat pain,itchy eyes,covid-19
+737,abdominal pain,chest pain,weight loss,high fever,allergies
+738,night sweats,muscle pain,burning sensation,frequent urination,typhoid
+739,chest pain,swollen tonsils,sneezing,rapid heartbeat,measles
+740,joint pain,burning sensation,nasal congestion,sneezing,flu
+741,loss of appetite,abdominal pain,nausea,nasal congestion,pneumonia
+742,rapid heartbeat,muscle pain,chest pain,neck stiffness,hyperthyroidism
+743,abdominal pain,fever,itchy eyes,fatigue,lung infection
+744,sore throat,back pain,skin redness,cough,malaria
+745,white patches,swollen lymph nodes,vomiting,rapid heartbeat,meningitis
+746,persistent cough,sneezing,light sensitivity,muscle pain,bronchitis
+747,fatigue,rash,dizziness,burning sensation,common cold
+748,white patches,nausea,nasal congestion,dehydration,chickenpox
+749,throat pain,swollen lymph nodes,rapid heartbeat,dehydration,dengue
+750,frequent urination,shortness of breath,joint pain,burning sensation,pneumonia
+751,diarrhea,difficulty swallowing,high fever,sneezing,hyperthyroidism
+752,nasal congestion,runny nose,difficulty swallowing,sweating,tuberculosis
+753,stomach pain,hair loss,loss of appetite,blurred vision,chikungunya
+754,back pain,shortness of breath,itchy eyes,rash,kidney infection
+755,sweating,dizziness,headache,nausea,urinary tract infection
+756,skin redness,high fever,fatigue,dehydration,allergies
+757,stomach pain,white patches,high fever,dry cough,strep throat
+758,skin redness,dizziness,rash,fatigue,food poisoning
+759,ear pain,hair loss,fever,sneezing,urinary tract infection
+760,difficulty swallowing,nausea,cough,joint pain,appendicitis
+761,ear pain,dizziness,fever,skin redness,chikungunya
+762,throat pain,abdominal pain,sneezing,fatigue,kidney infection
+763,runny nose,chills,neck stiffness,frequent urination,chickenpox
+764,ear pain,chest pain,dehydration,nausea,chikungunya
+765,swollen tonsils,back pain,high fever,nasal congestion,food poisoning
+766,cough,weight loss,dizziness,white patches,chickenpox
+767,shortness of breath,rash,light sensitivity,swollen tonsils,acid reflux
+768,nausea,throat pain,cough,rash,hypothyroidism
+769,chills,loss of appetite,throat pain,dry cough,malaria
+770,high fever,cough,nausea,shortness of breath,acid reflux
+771,runny nose,sweating,nasal congestion,skin redness,allergies
+772,weight loss,hair loss,sneezing,high fever,gastroenteritis
+773,burning sensation,swollen lymph nodes,dizziness,sneezing,gastroenteritis
+774,nausea,sweating,neck stiffness,light sensitivity,chickenpox
+775,headache,dark urine,loss of appetite,swollen tonsils,migraine
+776,dark urine,white patches,vomiting,dizziness,migraine
+777,light sensitivity,headache,rash,fatigue,hypothyroidism
+778,diarrhea,abdominal pain,chest pain,dry cough,anemia
+779,headache,throat pain,abdominal pain,shortness of breath,chikungunya
+780,white patches,chills,vomiting,hair loss,hyperthyroidism
+781,blurred vision,abdominal pain,hair loss,light sensitivity,flu
+782,vomiting,persistent cough,nausea,chest pain,measles
+783,fatigue,dark urine,nasal congestion,ear pain,kidney infection
+784,back pain,rapid heartbeat,rash,white patches,dengue
+785,joint pain,white patches,weight loss,itchy eyes,malaria
+786,joint pain,loss of appetite,high fever,ear pain,kidney infection
+787,white patches,loss of appetite,burning sensation,dark urine,measles
+788,rapid heartbeat,difficulty swallowing,neck stiffness,muscle pain,food poisoning
+789,difficulty swallowing,weight loss,itchy eyes,light sensitivity,hypothyroidism
+790,frequent urination,swollen lymph nodes,skin redness,fever,gastroenteritis
+791,ear pain,muscle pain,fever,itchy eyes,skin allergy
+792,fatigue,sore throat,ear pain,frequent urination,sinusitis
+793,light sensitivity,rapid heartbeat,headache,sweating,food poisoning
+794,nasal congestion,muscle pain,neck stiffness,sore throat,hepatitis b
+795,high fever,muscle pain,burning sensation,swollen tonsils,hepatitis b
+796,abdominal pain,shortness of breath,rash,night sweats,skin allergy
+797,itchy eyes,white patches,fatigue,sore throat,migraine
+798,joint pain,white patches,dry cough,nasal congestion,meningitis
+799,fatigue,itchy eyes,sweating,neck stiffness,flu
+800,burning sensation,throat pain,ear pain,runny nose,hypothyroidism
+801,high fever,burning sensation,abdominal pain,nasal congestion,allergies
+802,difficulty swallowing,itchy eyes,chest pain,dry cough,tuberculosis
+803,chills,blurred vision,sneezing,dry cough,hepatitis a
+804,chills,burning sensation,runny nose,light sensitivity,skin allergy
+805,back pain,skin redness,runny nose,dehydration,food poisoning
+806,sore throat,cough,rapid heartbeat,stomach pain,anemia
+807,burning sensation,joint pain,hair loss,light sensitivity,hypothyroidism
+808,nausea,nasal congestion,neck stiffness,rash,tuberculosis
+809,nausea,stomach pain,nasal congestion,itchy eyes,allergies
+810,weight loss,persistent cough,abdominal pain,nasal congestion,skin allergy
+811,rash,weight loss,light sensitivity,fatigue,flu
+812,white patches,swollen lymph nodes,neck stiffness,vomiting,allergies
+813,loss of appetite,sneezing,back pain,muscle pain,measles
+814,runny nose,fever,burning sensation,sweating,pneumonia
+815,fatigue,weight loss,loss of appetite,throat pain,common cold
+816,fatigue,abdominal pain,weight loss,dehydration,measles
+817,burning sensation,ear pain,white patches,muscle pain,lung infection
+818,vomiting,night sweats,abdominal pain,blurred vision,sinusitis
+819,blurred vision,throat pain,frequent urination,vomiting,hepatitis a
+820,white patches,itchy eyes,headache,sweating,typhoid
+821,sore throat,shortness of breath,chills,cough,common cold
+822,night sweats,swollen tonsils,dry cough,rapid heartbeat,bronchitis
+823,light sensitivity,rapid heartbeat,weight loss,shortness of breath,acid reflux
+824,loss of appetite,high fever,cough,back pain,chikungunya
+825,high fever,neck stiffness,throat pain,skin redness,hepatitis c
+826,dry cough,runny nose,weight loss,back pain,hepatitis a
+827,sore throat,burning sensation,dehydration,difficulty swallowing,ear infection
+828,abdominal pain,difficulty swallowing,weight loss,light sensitivity,pneumonia
+829,dehydration,nasal congestion,swollen tonsils,fever,kidney infection
+830,neck stiffness,joint pain,skin redness,swollen lymph nodes,flu
+831,rash,shortness of breath,burning sensation,ear pain,kidney infection
+832,dry cough,muscle pain,skin redness,stomach pain,hypothyroidism
+833,throat pain,swollen tonsils,dark urine,neck stiffness,urinary tract infection
+834,night sweats,stomach pain,loss of appetite,dehydration,gastroenteritis
+835,swollen tonsils,frequent urination,back pain,sweating,lung infection
+836,runny nose,shortness of breath,sweating,nausea,skin allergy
+837,shortness of breath,dehydration,back pain,blurred vision,anemia
+838,chest pain,nausea,fever,vomiting,appendicitis
+839,frequent urination,joint pain,throat pain,back pain,chickenpox
+840,burning sensation,swollen lymph nodes,ear pain,loss of appetite,allergies
+841,nausea,skin redness,back pain,swollen lymph nodes,common cold
+842,vomiting,burning sensation,neck stiffness,persistent cough,hepatitis c
+843,stomach pain,swollen tonsils,back pain,weight loss,malaria
+844,neck stiffness,headache,high fever,dark urine,malaria
+845,difficulty swallowing,sneezing,muscle pain,fatigue,acid reflux
+846,rapid heartbeat,light sensitivity,ear pain,sweating,covid-19
+847,loss of appetite,dehydration,chest pain,sore throat,chickenpox
+848,sore throat,frequent urination,sneezing,skin redness,chikungunya
+849,headache,shortness of breath,blurred vision,difficulty swallowing,tuberculosis
+850,burning sensation,hair loss,weight loss,ear pain,gastroenteritis
+851,blurred vision,burning sensation,dark urine,neck stiffness,jaundice
+852,chest pain,loss of appetite,fever,persistent cough,bronchitis
+853,nausea,itchy eyes,blurred vision,hair loss,ear infection
+854,skin redness,dry cough,throat pain,high fever,chikungunya
+855,headache,light sensitivity,sneezing,dry cough,hyperthyroidism
+856,swollen lymph nodes,white patches,fatigue,runny nose,typhoid
+857,sweating,dehydration,burning sensation,shortness of breath,food poisoning
+858,persistent cough,sore throat,nausea,high fever,ear infection
+859,white patches,joint pain,dizziness,weight loss,tuberculosis
+860,nausea,dark urine,high fever,white patches,anemia
+861,swollen lymph nodes,difficulty swallowing,skin redness,burning sensation,dengue
+862,blurred vision,fever,diarrhea,nausea,kidney infection
+863,back pain,headache,sore throat,hair loss,jaundice
+864,throat pain,fatigue,rash,vomiting,urinary tract infection
+865,loss of appetite,vomiting,chills,cough,food poisoning
+866,night sweats,weight loss,neck stiffness,difficulty swallowing,common cold
+867,difficulty swallowing,loss of appetite,swollen lymph nodes,itchy eyes,meningitis
+868,frequent urination,sneezing,chills,dizziness,dengue
+869,joint pain,high fever,difficulty swallowing,blurred vision,hyperthyroidism
+870,difficulty swallowing,nasal congestion,fatigue,vomiting,asthma
+871,cough,vomiting,diarrhea,hair loss,typhoid
+872,ear pain,throat pain,nausea,muscle pain,hepatitis a
+873,dark urine,sore throat,persistent cough,neck stiffness,dengue
+874,difficulty swallowing,headache,white patches,fever,anemia
+875,nausea,throat pain,rapid heartbeat,rash,hepatitis c
+876,itchy eyes,headache,joint pain,sneezing,urinary tract infection
+877,diarrhea,sweating,swollen tonsils,weight loss,lung infection
+878,swollen tonsils,sweating,itchy eyes,loss of appetite,lung infection
+879,light sensitivity,dizziness,hair loss,abdominal pain,measles
+880,sneezing,high fever,nasal congestion,cough,asthma
+881,dry cough,ear pain,sore throat,persistent cough,flu
+882,hair loss,weight loss,vomiting,dizziness,food poisoning
+883,muscle pain,shortness of breath,burning sensation,sweating,lung infection
+884,hair loss,dry cough,rash,ear pain,meningitis
+885,fever,white patches,back pain,swollen lymph nodes,gastroenteritis
+886,back pain,night sweats,ear pain,joint pain,covid-19
+887,dehydration,rash,persistent cough,chest pain,ear infection
+888,stomach pain,shortness of breath,white patches,headache,food poisoning
+889,sore throat,dehydration,dark urine,nasal congestion,chikungunya
+890,hair loss,neck stiffness,shortness of breath,dehydration,gastroenteritis
+891,diarrhea,throat pain,skin redness,vomiting,appendicitis
+892,sneezing,rapid heartbeat,ear pain,skin redness,flu
+893,high fever,difficulty swallowing,cough,swollen lymph nodes,hepatitis b
+894,itchy eyes,swollen lymph nodes,loss of appetite,white patches,pneumonia
+895,light sensitivity,dark urine,swollen lymph nodes,sneezing,chikungunya
+896,ear pain,neck stiffness,weight loss,dizziness,hypothyroidism
+897,nasal congestion,skin redness,diarrhea,white patches,pneumonia
+898,fatigue,rash,neck stiffness,high fever,hepatitis a
+899,throat pain,sweating,itchy eyes,difficulty swallowing,malaria
+900,back pain,white patches,fever,diarrhea,covid-19
+901,chills,hair loss,headache,weight loss,bronchitis
+902,dry cough,runny nose,sweating,headache,migraine
+903,white patches,headache,dry cough,sore throat,kidney infection
+904,dark urine,night sweats,headache,fatigue,ear infection
+905,cough,itchy eyes,runny nose,burning sensation,hepatitis c
+906,dehydration,night sweats,high fever,muscle pain,measles
+907,abdominal pain,weight loss,nasal congestion,sweating,chickenpox
+908,fever,dehydration,sweating,nasal congestion,urinary tract infection
+909,stomach pain,weight loss,abdominal pain,chills,hepatitis c
+910,dry cough,swollen lymph nodes,frequent urination,joint pain,bronchitis
+911,neck stiffness,back pain,rash,throat pain,hepatitis a
+912,dehydration,back pain,runny nose,skin redness,kidney infection
+913,rapid heartbeat,high fever,loss of appetite,itchy eyes,flu
+914,dehydration,swollen tonsils,rapid heartbeat,rash,kidney infection
+915,fever,dry cough,light sensitivity,rapid heartbeat,allergies
+916,dehydration,back pain,stomach pain,headache,malaria
+917,light sensitivity,joint pain,high fever,rash,lung infection
+918,rapid heartbeat,joint pain,skin redness,fever,migraine
+919,persistent cough,swollen lymph nodes,stomach pain,skin redness,hepatitis a
+920,burning sensation,frequent urination,blurred vision,sneezing,urinary tract infection
+921,fever,diarrhea,joint pain,cough,tuberculosis
+922,white patches,rash,dry cough,throat pain,dengue
+923,swollen tonsils,rapid heartbeat,neck stiffness,headache,meningitis
+924,swollen lymph nodes,fever,rapid heartbeat,sneezing,hyperthyroidism
+925,skin redness,ear pain,swollen tonsils,light sensitivity,common cold
+926,white patches,rapid heartbeat,dizziness,vomiting,typhoid
+927,fatigue,burning sensation,rash,swollen tonsils,sinusitis
+928,sweating,frequent urination,ear pain,joint pain,kidney infection
+929,rapid heartbeat,blurred vision,difficulty swallowing,sneezing,tuberculosis
+930,dehydration,vomiting,chest pain,fatigue,kidney infection
+931,fatigue,runny nose,rapid heartbeat,throat pain,common cold
+932,sore throat,nasal congestion,high fever,blurred vision,hyperthyroidism
+933,loss of appetite,frequent urination,fever,runny nose,common cold
+934,blurred vision,muscle pain,ear pain,hair loss,common cold
+935,weight loss,high fever,fatigue,dehydration,bronchitis
+936,white patches,abdominal pain,hair loss,nausea,migraine
+937,swollen tonsils,high fever,rapid heartbeat,blurred vision,asthma
+938,chest pain,muscle pain,dizziness,loss of appetite,lung infection
+939,swollen tonsils,swollen lymph nodes,rash,difficulty swallowing,kidney infection
+940,sneezing,difficulty swallowing,runny nose,diarrhea,hypothyroidism
+941,runny nose,neck stiffness,dry cough,chills,anemia
+942,night sweats,runny nose,ear pain,joint pain,bronchitis
+943,hair loss,frequent urination,swollen lymph nodes,nausea,pneumonia
+944,nausea,cough,dizziness,dry cough,hepatitis a
+945,dizziness,fatigue,back pain,fever,urinary tract infection
+946,high fever,abdominal pain,stomach pain,skin redness,covid-19
+947,sneezing,dehydration,muscle pain,abdominal pain,kidney infection
+948,fatigue,sneezing,rapid heartbeat,chest pain,hepatitis b
+949,sneezing,back pain,sore throat,loss of appetite,jaundice
+950,high fever,stomach pain,dry cough,sneezing,jaundice
+951,difficulty swallowing,dehydration,fatigue,light sensitivity,lung infection
+952,sore throat,cough,nasal congestion,sweating,gastroenteritis
+953,throat pain,vomiting,nasal congestion,dark urine,acid reflux
+954,ear pain,chest pain,swollen lymph nodes,dark urine,urinary tract infection
+955,abdominal pain,nausea,dizziness,dry cough,asthma
+956,cough,high fever,joint pain,sneezing,migraine
+957,nasal congestion,light sensitivity,night sweats,weight loss,chikungunya
+958,muscle pain,blurred vision,sneezing,back pain,ear infection
+959,nausea,shortness of breath,swollen lymph nodes,high fever,pneumonia
+960,swollen lymph nodes,burning sensation,nasal congestion,sneezing,measles
+961,throat pain,frequent urination,chest pain,ear pain,migraine
+962,hair loss,sneezing,loss of appetite,fatigue,skin allergy
+963,persistent cough,white patches,joint pain,fatigue,sinusitis
+964,swollen tonsils,fever,nasal congestion,back pain,covid-19
+965,chills,sweating,difficulty swallowing,rapid heartbeat,chickenpox
+966,vomiting,swollen lymph nodes,chills,dark urine,gastroenteritis
+967,dark urine,vomiting,weight loss,skin redness,sinusitis
+968,dry cough,persistent cough,abdominal pain,high fever,pneumonia
+969,burning sensation,cough,swollen lymph nodes,hair loss,gastroenteritis
+970,hair loss,white patches,joint pain,nausea,jaundice
+971,difficulty swallowing,frequent urination,swollen tonsils,runny nose,hypothyroidism
+972,itchy eyes,runny nose,light sensitivity,vomiting,tuberculosis
+973,diarrhea,cough,rapid heartbeat,light sensitivity,typhoid
+974,muscle pain,cough,burning sensation,dry cough,hepatitis b
+975,back pain,itchy eyes,weight loss,throat pain,jaundice
+976,nasal congestion,itchy eyes,dehydration,cough,kidney infection
+977,rash,loss of appetite,persistent cough,sore throat,strep throat
+978,sweating,burning sensation,high fever,dry cough,asthma
+979,night sweats,weight loss,rapid heartbeat,ear pain,covid-19
+980,white patches,light sensitivity,nausea,hair loss,asthma
+981,muscle pain,neck stiffness,night sweats,throat pain,malaria
+982,high fever,weight loss,swollen tonsils,cough,typhoid
+983,abdominal pain,throat pain,light sensitivity,rash,meningitis
+984,abdominal pain,dehydration,night sweats,dark urine,hepatitis a
+985,nausea,stomach pain,dizziness,sore throat,malaria
+986,cough,shortness of breath,throat pain,headache,malaria
+987,shortness of breath,stomach pain,joint pain,chills,typhoid
+988,cough,stomach pain,diarrhea,back pain,measles
+989,headache,dry cough,frequent urination,high fever,asthma
+990,swollen tonsils,throat pain,muscle pain,rapid heartbeat,anemia
+991,chest pain,stomach pain,throat pain,blurred vision,ear infection
+992,skin redness,sweating,night sweats,sneezing,gastroenteritis
+993,runny nose,diarrhea,rash,vomiting,acid reflux
+994,itchy eyes,dark urine,diarrhea,light sensitivity,chickenpox
+995,frequent urination,sore throat,swollen lymph nodes,nasal congestion,ear infection
+996,dry cough,skin redness,stomach pain,dizziness,hepatitis c
+997,chills,sweating,throat pain,headache,meningitis
+998,diarrhea,difficulty swallowing,dry cough,swollen tonsils,meningitis
+999,dizziness,shortness of breath,swollen tonsils,white patches,bronchitis
+1000,nasal congestion,fever,dry cough,sneezing,urinary tract infection

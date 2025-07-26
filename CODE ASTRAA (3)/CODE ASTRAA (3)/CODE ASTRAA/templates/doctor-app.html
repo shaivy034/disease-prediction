@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Booking</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/doctor-app.css') }}">
+</head>
+<body>
+
+    <div class="appointment-container">
+        <h2>Doctor Appointment Booking</h2>
+
+        <table class="doctor-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Doctor ID</th>
+                    <th>Specialization</th>
+                    <th>Contact Info</th>
+                    <th>Email</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for doc in doctors %}
+                <tr>
+                    <td>{{ doc.doc_name }}</td>
+                    <td>{{ doc.doc_id }}</td>
+                    <td>{{ doc.specialization }}</td>
+                    <td>{{ doc.contact_info }}</td>
+                    <td>{{ doc.contact_info }}</td> <!-- You can replace with doc.email if separate -->
+                    <td>--</td> <!-- Placeholder if experience is not in DB -->
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="appointment-form">
+            <h3>Book an Appointment</h3>
+            <p>Welcome, {{ email }}</p>
+
+            <div class="form-group">
+                <label for="doctor-select">Choose a Doctor:</label>
+                <select id="doctor-select" class="form-control">
+                    <option value="">-- Select Doctor --</option>
+                    {% for doc in doctors %}
+                    <option value="{{ doc.doc_id }}">{{ doc.doc_name }} ({{ doc.specialization }})</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="appointment-date">Select Date:</label>
+                <input type="date" id="appointment-date" class="form-control-1">
+            </div>
+
+            <div class="form-group">
+                <label for="appointment-time">Select Time:</label>
+                <input type="time" id="appointment-time" class="form-control-1">
+            </div>
+
+            <button id="book-appointment-btn" class="primary-btn">Book Appointment</button>
+
+            <div class="confirmation-message hidden"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/doctor-app.js') }}"></script>
+</body>
+</html>
